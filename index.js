@@ -42,7 +42,7 @@ app.get("/",(req,res)=>{
 // app.use('/routes',root);
 app.listen(process.env.PORT || 5000,function(req,res){
    
-    console.log('server is runnig on port 3500');
+    console.log('connected');
 });
 
 module.exports = router;
